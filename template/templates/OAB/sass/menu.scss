@@ -1,0 +1,56 @@
+@import "_variables";
+@import "_mixins";
+
+/* @group modules */
+.moduletable {}
+
+/* @group hmenu */
+.moduletable_hmenu {}
+
+.moduletable_hmenu > ul {
+	margin: 0;
+	padding: 0;
+}
+
+.moduletable_hmenu > ul > li {
+	display: inline-block;
+	*display: inline;
+	*zoom: 1;
+	position: relative;
+	
+	padding: 0 5px;
+}
+
+.moduletable_hmenu.primary {
+	float: right;
+	font-size: 26px;
+	font-family: "alternate-gothic-no-1-d";
+	color: #fff;
+	
+	ul {
+		
+		li {
+			padding: 0px 0 0px 18px;
+			&:hover {
+				background: url('../images/menu_rollover.png') no-repeat;
+				background-position: 0px 0px;
+				
+				a {
+					background: url('../images/menu_rollover.png') no-repeat;
+					background-position: 100% bottom;
+					color: #fff;
+					text-decoration: none;
+				}
+			}
+		}
+			
+		a {
+			color: $green;
+			display: block;
+			padding: 45px 18px 17px 0;
+			//line-height: 76px;
+			//height: 76px;
+		}
+
+	}
+}

@@ -1,0 +1,35 @@
+@import "_variables";
+@import "_mixins";
+
+/* elements */
+body, select, input, textarea {
+	color: #444; /* off black */
+	font-family: Helvetica, Arial, sans-serif;
+	font-size: 14px;
+	line-height: 1em;
+}
+
+//@font-face {
+//    font-family: 'myriadpro-boldcond';
+//    src: url('../resources/myriadpro-boldcond-webfont.eot');
+//    src: url('../resources/myriadpro-boldcond-webfont.eot?#iefix') format('embedded-opentype'),
+//         url('../resources/myriadpro-boldcond-webfont.ttf') format('truetype');
+//}
+
+/* Headers (h1, h2, etc) have no default font-size or margin; define those yourself */
+h1, h2, h3, h4, h5, h6 { 
+	font-weight: bold; 
+	
+	.item-page & {
+		margin-top: 0;
+	}
+}
+
+a, a:active, a:visited {
+	color: #607890;
+	text-decoration: none;
+}
+a:hover {
+	color: #036;
+	text-decoration: underline;
+}

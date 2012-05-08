@@ -1,0 +1,36 @@
+@import "_variables";
+@import "_mixins";
+
+/* @group modules */
+.moduletable {}
+
+.moduletable.logo {
+	float: left;
+	height: 103px;
+}
+
+.moduletable.join {
+	background: url('../images/bg_joinHeader.png') top center no-repeat;
+	position: absolute;
+	left: 10px;
+	bottom: -53px;
+	height: 55px;
+	width: 180px;
+	text-align: center;
+	text-transform: uppercase;
+	
+	a {
+		font-family: "alternate-gothic-no-1-d";
+		font-size: 27px;
+		color: $navy;
+		line-height: 55px;
+		vertical-align: middle;
+		text-shadow: 1px 1px 0px #fff;
+		&:hover {
+			color: #fff;
+			text-decoration: none;
+			text-shadow: 1px 1px 1px $navy;
+		}
+	}
+
+}
