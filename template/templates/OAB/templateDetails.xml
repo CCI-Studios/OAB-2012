@@ -1,10 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
+<<<<<<< HEAD:template/templates/default/templateDetails.xml
 <!DOCTYPE install PUBLIC "-//Joomla! 1.6//DTD template 1.0//EN" "http://www.joomla.org/xml/dtd/1.6/template-install.dtd">
 <extension version="1.7" type="template" client="site">
 	<name>NAME</name>
 	<creationDate>DATE</creationDate>
 	<author>AUTHOR_NAME</author>
 	<authorEmail>EMAIL@ccistudios.com</authorEmail>
+=======
+<!DOCTYPE install PUBLIC "-//Joomla! 2.5//DTD template 1.0//EN" "http://www.joomla.org/xml/dtd/1.6/template-install.dtd">
+<extension version="2.5" type="template" method="upgrade">
+	<name>OAB</name>
+	<creationDate>May 7, 2012</creationDate>
+	<author>Matt Elliott</author>
+	<authorEmail>melliott@ccistudios.com</authorEmail>
+>>>>>>> origin/master:template/templates/OAB/templateDetails.xml
 	<authorUrl>http://ccistudios.com</authorUrl>
 	<copyright>Copyright (C) 2011 COMPANY.</copyright>
 	<license>GNU General Public License version 2 or later; see LICENSE.txt</license>
@@ -28,9 +37,14 @@
 
 	<positions>
 		<position>header</position>
+<<<<<<< HEAD:template/templates/default/templateDetails.xml
 		<position>sidebar</position>
 		<position>bottom</position>
+=======
+		<position>body</position>
+>>>>>>> origin/master:template/templates/OAB/templateDetails.xml
 		<position>footer</position>
+		<position>footerTop</position>
 	</positions>
 
 	<config>
