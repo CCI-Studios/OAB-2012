@@ -44,6 +44,8 @@ $analytics = "UA-XXXXX-X"; // FIXME Update to client ID
 		<link rel="stylesheet" href="/templates/<?= $this->template ?>/css/template.min.css">
 	<?php endif; ?>
 
+	<script type="text/javascript" src="http://use.typekit.com/ihv3trk.js"></script>
+	<script type="text/javascript">try{Typekit.load();}catch(e){}</script>
 	<!-- load modernizer, all other at bottom -->
 	<?php if ($testing): ?>
 		<script src="/templates/<?= $this->template ?>/js/libs/modernizr-1.7.js"></script>
