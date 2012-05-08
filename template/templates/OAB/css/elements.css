@@ -6,6 +6,10 @@ body, select, input, textarea {
 
 /* Headers (h1, h2, etc) have no default font-size or margin; define those yourself */
 h1, h2, h3, h4, h5, h6 { font-weight: bold; }
+h1, h2, h3, h4, h5, h6 {
+  font-weight: bold; }
+  .item-page h1, .item-page h2, .item-page h3, .item-page h4, .item-page h5, .item-page h6 {
+    margin-top: 0; }
 
 a, a:active, a:visited {
 	color: #607890;
