@@ -2,3 +2,24 @@
 .moduletable.logo {
   float: left;
   height: 103px; }
+
+.moduletable.join {
+  background: url("../images/bg_joinHeader.png") top center no-repeat;
+  position: absolute;
+  left: 10px;
+  bottom: -53px;
+  height: 55px;
+  width: 180px;
+  text-align: center;
+  text-transform: uppercase; }
+  .moduletable.join a {
+    font-family: "alternate-gothic-no-1-d";
+    font-size: 27px;
+    color: #335f6e;
+    line-height: 55px;
+    vertical-align: middle;
+    text-shadow: 1px 1px 0px #fff; }
+    .moduletable.join a:hover {
+      color: #fff;
+      text-decoration: none;
+      text-shadow: 1px 1px 1px #335f6e; }
