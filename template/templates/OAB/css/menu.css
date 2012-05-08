@@ -1,0 +1,32 @@
+/* @group modules */
+/* @group hmenu */
+.moduletable_hmenu > ul {
+  margin: 0;
+  padding: 0; }
+
+.moduletable_hmenu > ul > li {
+  display: inline-block;
+  *display: inline;
+  *zoom: 1;
+  position: relative;
+  padding: 0 5px; }
+
+.moduletable_hmenu.primary {
+  float: right;
+  font-size: 26px;
+  font-family: "alternate-gothic-no-1-d";
+  color: #fff; }
+  .moduletable_hmenu.primary ul li {
+    padding: 0px 0 0px 18px; }
+    .moduletable_hmenu.primary ul li:hover {
+      background: url("../images/menu_rollover.png") no-repeat;
+      background-position: 0px 0px; }
+      .moduletable_hmenu.primary ul li:hover a {
+        background: url("../images/menu_rollover.png") no-repeat;
+        background-position: 100% bottom;
+        color: #fff;
+        text-decoration: none; }
+  .moduletable_hmenu.primary ul a {
+    color: #87b161;
+    display: block;
+    padding: 45px 18px 17px 0; }
