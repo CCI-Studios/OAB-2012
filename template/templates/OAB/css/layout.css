@@ -3,3 +3,14 @@
   width: 940px;
   padding: 0 10px;
   margin: 0 auto; }
+
+#header {
+  height: 100px;
+  background-color: #fff;
+  border-bottom: 1px solid #fff; }
+  #header > div {
+    position: relative; }
+
+#body {
+  background: #335f6e url("../images/bg_headerShadow.png") top center no-repeat;
+  padding: 100px 0 0 0; }
