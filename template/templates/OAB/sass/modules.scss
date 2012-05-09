@@ -22,14 +22,14 @@
 	a {
 		font-family: "alternate-gothic-no-1-d";
 		font-size: 27px;
-		color: $navy;
+		color: $teal;
 		line-height: 55px;
 		vertical-align: middle;
 		text-shadow: 1px 1px 0px #fff;
 		&:hover {
 			color: #fff;
 			text-decoration: none;
-			text-shadow: 1px 1px 1px $navy;
+			text-shadow: 1px 1px 1px $teal;
 		}
 	}
 
