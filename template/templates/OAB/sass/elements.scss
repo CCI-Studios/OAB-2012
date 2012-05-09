@@ -25,6 +25,13 @@ h1, h2, h3, h4, h5, h6 {
 	}
 }
 
+h1 {
+	font-size: 44px;
+	color: $green;
+	text-shadow: 2px 2px 4px black;
+	
+}
+
 a, a:active, a:visited {
 	color: #607890;
 	text-decoration: none;
