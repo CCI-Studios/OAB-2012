@@ -19,4 +19,10 @@
 
 #body {
 	background: $teal url('../images/bg_headerShadow.png') top center no-repeat;
+	
+	> div {
+		background: url('../images/bg_bodyStripes.png') top center repeat-x;
+		padding: 100px 0 0 0;
+	}
+}
 }
