@@ -15,11 +15,11 @@
   .moduletable.join a {
     font-family: "alternate-gothic-no-1-d";
     font-size: 27px;
-    color: #335f6e;
+    color: #1b3757;
     line-height: 55px;
     vertical-align: middle;
     text-shadow: 1px 1px 0px #fff; }
     .moduletable.join a:hover {
       color: #fff;
       text-decoration: none;
-      text-shadow: 1px 1px 1px #335f6e; }
+      text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.42); }
