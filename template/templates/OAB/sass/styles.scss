@@ -14,3 +14,8 @@
 /* TODO Update selection BG color */
 ::-moz-selection{ background: #FF5E99; color:#fff; text-shadow: none; }
 ::selection { background:#FF5E99; color:#fff; text-shadow: none; }
+.imgTopRight {
+	position: absolute;
+	top: 0;
+	right: 0;
+}
