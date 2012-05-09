@@ -23,6 +23,10 @@
 	> div {
 		background: url('../images/bg_headerShadow.png') top center no-repeat;
 		padding: 100px 0 0 0;
+		
+		.container {
+			position: relative;
+		}
 	}
 }
 
