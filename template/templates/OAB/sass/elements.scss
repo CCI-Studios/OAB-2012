@@ -26,16 +26,23 @@ h1, h2, h3, h4, h5, h6 {
 
 h1 {
 	font-family: "alternate-gothic-no-1-d";
-	font-size: 44px;
+	font-size: 48px;
 	color: $green;
+	line-height: 1em;
 	text-shadow: 2px 2px 4px rgba(black, .75);
+	margin-bottom: 14px;
 	
+	.home & {
+		width: 41%;
+	}
 }
 
 h2 {
 	font-size: 18px;
+	line-height: 1em;
 	color: white;
 	text-shadow: 2px 2px 4px rgba(black, .75);
+	margin-bottom: 14px;
 	
 }
 
