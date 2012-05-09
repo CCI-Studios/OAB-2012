@@ -32,4 +32,29 @@
 	border-bottom: 1px solid $border;
 }
 
+#footer {
+	background-color: $teal;
+	text-align: center;
+	
+	#copyright {
+		background: url('../images/bg_copyrightShadow.png') top center no-repeat;
+		text-align: none;
+		padding: 10px 0 0;
+		
+		> div {
+			padding: 25px 0;
+			background-color: $smoke;
+			font-size: 10px;
+			
+			span,
+			a {
+				color: $navy;
+			}
+			
+			a:hover {
+				color: $green;
+				text-decoration: none;
+			}
+		}
+	}
 }
