@@ -18,10 +18,10 @@
 }
 
 #body {
-	background: $teal url('../images/bg_headerShadow.png') top center no-repeat;
+	background: url('../images/bg_bodyStripes.jpg') top center repeat-x;
 	
 	> div {
-		background: url('../images/bg_bodyStripes.png') top center repeat-x;
+		background: url('../images/bg_headerShadow.png') top center no-repeat;
 		padding: 100px 0 0 0;
 	}
 }
