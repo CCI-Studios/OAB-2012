@@ -53,3 +53,36 @@
 		}
 
 	}
+}
+
+// footer menu
+
+.moduletable_hmenu.secondary {
+	padding: 40px 0;
+	font-size: 10px;
+	line-height: 10px;
+
+	ul {
+		
+		li {
+			border-left: 1px solid #fff;
+			&:first-child {
+				border: none;
+			}
+			
+			a {
+				color: rgba($white, .7);
+				&:hover {
+					color: rgba($green, .7);
+					text-decoration: none;
+				}
+			}
+		}
+	}
+}
+
+
+
+
+
+
