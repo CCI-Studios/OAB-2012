@@ -15,7 +15,8 @@
   float: right;
   font-size: 26px;
   font-family: "alternate-gothic-no-1-d";
-  color: #fff; }
+  color: #fff;
+  line-height: 1em; }
   .moduletable_hmenu.primary ul li {
     padding: 0px 0 0px 18px; }
     .moduletable_hmenu.primary ul li:hover {
@@ -29,4 +30,18 @@
   .moduletable_hmenu.primary ul a {
     color: #87b161;
     display: block;
-    padding: 45px 18px 17px 0; }
+    padding: 33px 18px 17px 0; }
+
+.moduletable_hmenu.secondary {
+  padding: 40px 0;
+  font-size: 10px;
+  line-height: 10px; }
+  .moduletable_hmenu.secondary ul li {
+    border-left: 1px solid #fff; }
+    .moduletable_hmenu.secondary ul li:first-child {
+      border: none; }
+    .moduletable_hmenu.secondary ul li a {
+      color: rgba(255, 255, 255, 0.7); }
+      .moduletable_hmenu.secondary ul li a:hover {
+        color: rgba(135, 177, 97, 0.7);
+        text-decoration: none; }

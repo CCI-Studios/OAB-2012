@@ -4,13 +4,18 @@ body, select, input, textarea {
   /* off black */
   font-family: Helvetica, Arial, sans-serif;
   font-size: 14px;
-  line-height: 1em; }
+  background-color: #f1f1f1; }
 
 /* Headers (h1, h2, etc) have no default font-size or margin; define those yourself */
 h1, h2, h3, h4, h5, h6 {
   font-weight: bold; }
   .item-page h1, .item-page h2, .item-page h3, .item-page h4, .item-page h5, .item-page h6 {
     margin-top: 0; }
+
+h1 {
+  font-size: 44px;
+  color: #87b161;
+  text-shadow: 2px 2px 4px black; }
 
 a, a:active, a:visited {
   color: #607890;
