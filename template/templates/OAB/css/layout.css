@@ -16,6 +16,8 @@
   #body > div {
     background: url("../images/bg_headerShadow.png") top center no-repeat;
     padding: 100px 0 0 0; }
+    #body > div .container {
+      position: relative; }
 
 #comp {
   padding: 0 0 30px 0; }

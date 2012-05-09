@@ -378,14 +378,20 @@ h1, h2, h3, h4, h5, h6 {
 
 h1 {
   font-family: "alternate-gothic-no-1-d";
-  font-size: 44px;
+  font-size: 48px;
   color: #87b161;
-  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.75); }
+  line-height: 1em;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.75);
+  margin-bottom: 14px; }
+  .home h1 {
+    width: 41%; }
 
 h2 {
   font-size: 18px;
+  line-height: 1em;
   color: white;
-  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.75); }
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.75);
+  margin-bottom: 14px; }
 
 p {
   font-weight: lighter; }
@@ -455,6 +461,8 @@ button {
   #body > div {
     background: url("../images/bg_headerShadow.png") top center no-repeat;
     padding: 100px 0 0 0; }
+    #body > div .container {
+      position: relative; }
 
 #comp {
   padding: 0 0 30px 0; }
@@ -548,7 +556,8 @@ button {
   font-size: 10px;
   line-height: 10px; }
   .moduletable_hmenu.secondary ul li {
-    border-left: 1px solid rgba(255, 255, 255, 0.7); }
+    border-left: 1px solid rgba(255, 255, 255, 0.7);
+    padding: 0 10px 2px; }
     .moduletable_hmenu.secondary ul li:first-child {
       border: none; }
     .moduletable_hmenu.secondary ul li a {
@@ -575,11 +584,16 @@ button {
    Also: hot pink! */
 /* TODO Update selection BG color */
 ::-moz-selection {
-  background: #FF5E99;
+  background: #87b161;
   color: #fff;
   text-shadow: none; }
 
 ::selection {
-  background: #FF5E99;
+  background: #87b161;
   color: #fff;
   text-shadow: none; }
+
+.imgTopRight {
+  position: absolute;
+  top: 0;
+  right: 0; }
