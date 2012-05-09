@@ -72,6 +72,11 @@ $analytics = "UA-XXXXX-X"; // FIXME Update to client ID
 		<div id="footer"><div class="container">
 			<jdoc:include type="modules" name="footer" style="xhtml" />
 		</div></div>
+			<div id="copyright"><div><div class="container">
+				<span class="left">&copy; OAB: It’s Urgent <?php echo date('Y') ?>. All Rights Reserved.</span>
+				<span class="right">Site by <a href="http://ccistudios.com" target="_blank">CCI Studios</a></span>
+				<div class="clear"></div>
+			</div></div></div>
 	</div>
 
 	<div class="hidden">
