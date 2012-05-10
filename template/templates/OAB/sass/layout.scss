@@ -18,7 +18,8 @@
 }
 
 #body {
-	background: url('../images/bg_bodyStripes.jpg') top center repeat-x;
+	background: $bg url('../images/bg_bodyStripes.jpg') top center repeat-x;
+	
 	.home & {
 		background: url('../images/bg_bodyStripes.jpg') top center repeat-x;
 		> div {
