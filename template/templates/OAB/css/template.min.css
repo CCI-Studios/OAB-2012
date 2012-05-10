@@ -458,7 +458,7 @@ button {
     position: relative; }
 
 #body {
-  background: url("../images/bg_bodyStripes.jpg") top center repeat-x; }
+  background: #25444f url("../images/bg_bodyStripes.jpg") top center repeat-x; }
   .home #body {
     background: url("../images/bg_bodyStripes.jpg") top center repeat-x; }
     .home #body > div {
