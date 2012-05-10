@@ -34,3 +34,43 @@
 	}
 
 }
+
+// bottom mods
+
+#bottom .moduletable {
+	width: 31.914893617%;
+	padding-left: 2.127659574%;
+	position: relative;
+	float: left;
+	&:first-child {
+		padding-left: 0;
+	}
+	
+	img {
+		position: relative;
+		left: -60px;
+	}
+	.testimonials img {
+		top: -5px;
+	}
+	.message img {
+		top: -8px;
+	}
+	
+	p {
+		position: absolute;
+		top: 45px;
+		left: 170px;
+		
+		a {
+			font-family: "alternate-gothic-no-1-d";
+			font-size: 26px;
+			color: $green;
+			text-shadow: 1px 1px 1px rgba(black, 1);
+			&:hover {
+				color: #fff;
+				text-decoration: none;
+			}
+		}
+	}
+}
