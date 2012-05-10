@@ -3,14 +3,14 @@ set :stages, %w(staging production)
 set :default_stage, "staging"
 require "capistrano/ext/multistage"
 
-set :application, "newenglandarbors.ca"
+set :application, "itsurgent.ca"
 
 # repository info
-set :repository,  "git@github.com:CCI-Studios/New-England-Arbors.git"
+set :repository,  "git@github.com:CCI-Studios/OAB-2012.git"
 set :scm, :git
 
 # ssh settings
-set :user, "arbors"
+set :user, "oab"
 set :use_sudo, false
 
 # Joomla
