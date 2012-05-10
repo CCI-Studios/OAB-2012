@@ -44,10 +44,14 @@ h2 {
 	color: white;
 	text-shadow: 2px 2px 4px rgba(black, .75);
 	margin-bottom: 14px;
-	
 }
 
-p {
+ul {
+	list-style: none;
+}
+
+p,
+li {
 	font-weight: lighter;
 }
 
