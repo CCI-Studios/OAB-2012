@@ -28,7 +28,11 @@ h2 {
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.75);
   margin-bottom: 14px; }
 
-p {
+ul {
+  list-style: none; }
+
+p,
+li {
   font-weight: lighter; }
 
 a, a:active, a:visited {
