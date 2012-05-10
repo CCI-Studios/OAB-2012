@@ -379,6 +379,7 @@ h1, h2, h3, h4, h5, h6 {
 h1 {
   font-family: "alternate-gothic-no-1-d";
   font-size: 48px;
+  font-weight: normal;
   color: #87b161;
   line-height: 1em;
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.75);
@@ -458,17 +459,21 @@ button {
 
 #body {
   background: url("../images/bg_bodyStripes.jpg") top center repeat-x; }
-  #body > div {
+  .home #body {
+    background: url("../images/bg_bodyStripes.jpg") top center repeat-x; }
+    .home #body > div {
+      background: url("../images/bg_bodyHome.jpg") top center no-repeat; }
+  #body > div > div {
     background: url("../images/bg_headerShadow.png") top center no-repeat;
     padding: 100px 0 0 0; }
-    #body > div .container {
+    #body > div > div .container {
       position: relative; }
 
 #comp {
   padding: 0 0 30px 0; }
 
 #bottom {
-  padding: 30px 0;
+  padding: 20px 0;
   border-top: 1px solid #5e8798;
   border-bottom: 1px solid #5e8798; }
 
@@ -497,23 +502,50 @@ button {
 .moduletable.join {
   background: url("../images/bg_joinHeader.png") top center no-repeat;
   position: absolute;
-  left: 10px;
-  bottom: -53px;
-  height: 55px;
-  width: 180px;
-  text-align: center;
+  top: 101px;
+  left: -130px;
+  width: 633px;
+  height: 216px;
   text-transform: uppercase; }
   .moduletable.join a {
     font-family: "alternate-gothic-no-1-d";
-    font-size: 27px;
+    font-size: 28px;
     color: #1b3757;
     line-height: 55px;
+    padding: 0 0 0 158px;
     vertical-align: middle;
-    text-shadow: 1px 1px 0px #fff; }
+    text-shadow: 1px 1px 0px rgba(255, 255, 255, 0.42); }
     .moduletable.join a:hover {
       color: #fff;
       text-decoration: none;
       text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.42); }
+
+#bottom .moduletable {
+  width: 31.914893617%;
+  padding-left: 2.127659574%;
+  position: relative;
+  float: left; }
+  #bottom .moduletable:first-child {
+    padding-left: 0; }
+  #bottom .moduletable img {
+    position: relative;
+    left: -60px; }
+  #bottom .moduletable .testimonials img {
+    top: -5px; }
+  #bottom .moduletable .message img {
+    top: -8px; }
+  #bottom .moduletable p {
+    position: absolute;
+    top: 45px;
+    left: 170px; }
+    #bottom .moduletable p a {
+      font-family: "alternate-gothic-no-1-d";
+      font-size: 26px;
+      color: #87b161;
+      text-shadow: 1px 1px 1px black; }
+      #bottom .moduletable p a:hover {
+        color: #fff;
+        text-decoration: none; }
 
 /* @group modules */
 /* @group hmenu */
