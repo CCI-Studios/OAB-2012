@@ -19,8 +19,14 @@
 
 #body {
 	background: url('../images/bg_bodyStripes.jpg') top center repeat-x;
+	.home & {
+		background: url('../images/bg_bodyStripes.jpg') top center repeat-x;
+		> div {
+			background: url('../images/bg_bodyHome.jpg') top center no-repeat;
+		}
+	}
 	
-	> div {
+	> div > div {
 		background: url('../images/bg_headerShadow.png') top center no-repeat;
 		padding: 100px 0 0 0;
 		
