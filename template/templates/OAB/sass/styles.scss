@@ -15,10 +15,22 @@
 ::-moz-selection{ background: $green; color:#fff; text-shadow: none; }
 ::selection { background: $green; color:#fff; text-shadow: none; }
 
+
 .imgTopRight {
 	position: absolute;
 	top: 0;
 	right: 0;
+	
+	p {
+		margin: 0;
+		padding: 0;
+		position: relative;
+		bottom: 105px;
+		right: -170px;
+		font-size: 10px;
+	}
+}
+
 a {
 	&:hover {
 		text-decoration: none;
