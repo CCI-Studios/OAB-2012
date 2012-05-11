@@ -19,4 +19,32 @@
 	position: absolute;
 	top: 0;
 	right: 0;
+a {
+	&:hover {
+		text-decoration: none;
+	}
+	.joinButton {
+		background: url('../images/button_join.png') top center no-repeat;
+		width: 352px;
+		height: 127px;
+		text-align: center;
+		font-family: "alternate-gothic-no-1-d";
+		font-size: 40px;
+		text-transform: uppercase;
+		line-height: 1.2em;
+		color: $navy;
+		text-shadow: 1px 1px 0px rgba(white, .42);
+		cursor: pointer;
+		padding: 22px 0 0 0;
+
+		.sizeUp30 {
+			font-size: 75px;
+		}
+
+		&:hover {
+			color: #fff;
+			text-decoration: none;
+			text-shadow: 1px 1px 1px rgba(black, .42);
+		}
+	}	
 }
