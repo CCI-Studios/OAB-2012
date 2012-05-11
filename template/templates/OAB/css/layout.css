@@ -13,10 +13,8 @@
 
 #body {
   background: #25444f url("../images/bg_bodyStripes.jpg") top center repeat-x; }
-  .home #body {
-    background: url("../images/bg_bodyStripes.jpg") top center repeat-x; }
-    .home #body > div {
-      background: url("../images/bg_bodyHome.jpg") top center no-repeat; }
+  .home #body > div {
+    background: url("../images/bg_bodyHome.jpg") top center no-repeat; }
   #body > div > div {
     background: url("../images/bg_headerShadow.png") top center no-repeat;
     padding: 100px 0 0 0; }
@@ -27,7 +25,7 @@
   padding: 0 0 30px 0; }
 
 #bottom {
-  padding: 20px 0;
+  padding: 10px 0;
   border-top: 1px solid #5e8798;
   border-bottom: 1px solid #5e8798; }
 

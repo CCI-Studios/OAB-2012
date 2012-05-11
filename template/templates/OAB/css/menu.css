@@ -18,7 +18,8 @@
   color: #fff;
   line-height: 1em; }
   .moduletable_hmenu.primary ul li {
-    padding: 0px 0 0px 18px; }
+    padding: 0px 0 0px 18px;
+    cursor: pointer; }
     .moduletable_hmenu.primary ul li:hover {
       background: url("../images/menu_rollover.png") no-repeat;
       background-position: 0px 0px; }
@@ -40,7 +41,7 @@
   line-height: 10px; }
   .moduletable_hmenu.secondary ul li {
     border-left: 1px solid rgba(255, 255, 255, 0.7);
-    padding: 0 10px 2px; }
+    padding: 0 10px; }
     .moduletable_hmenu.secondary ul li:first-child {
       border: none; }
     .moduletable_hmenu.secondary ul li a {

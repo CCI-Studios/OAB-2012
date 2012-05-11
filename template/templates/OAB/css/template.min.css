@@ -384,16 +384,25 @@ h1 {
   line-height: 1em;
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.75);
   margin-bottom: 14px; }
+  .home h1 {
+    z-index: 2;
+    position: relative; }
 
 h2 {
   font-size: 18px;
-  line-height: 1em;
   color: white;
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.75);
   margin-bottom: 14px; }
 
 ul {
-  list-style: none; }
+  color: #87b161; }
+  ul.links {
+    list-style: none;
+    padding-left: 0; }
+    ul.links li a {
+      color: #ffffff; }
+      ul.links li a:hover {
+        color: #87b161; }
 
 p,
 li {
@@ -461,10 +470,8 @@ button {
 
 #body {
   background: #25444f url("../images/bg_bodyStripes.jpg") top center repeat-x; }
-  .home #body {
-    background: url("../images/bg_bodyStripes.jpg") top center repeat-x; }
-    .home #body > div {
-      background: url("../images/bg_bodyHome.jpg") top center no-repeat; }
+  .home #body > div {
+    background: url("../images/bg_bodyHome.jpg") top center no-repeat; }
   #body > div > div {
     background: url("../images/bg_headerShadow.png") top center no-repeat;
     padding: 100px 0 0 0; }
@@ -475,7 +482,7 @@ button {
   padding: 0 0 30px 0; }
 
 #bottom {
-  padding: 20px 0;
+  padding: 10px 0;
   border-top: 1px solid #5e8798;
   border-bottom: 1px solid #5e8798; }
 
@@ -569,7 +576,8 @@ button {
   color: #fff;
   line-height: 1em; }
   .moduletable_hmenu.primary ul li {
-    padding: 0px 0 0px 18px; }
+    padding: 0px 0 0px 18px;
+    cursor: pointer; }
     .moduletable_hmenu.primary ul li:hover {
       background: url("../images/menu_rollover.png") no-repeat;
       background-position: 0px 0px; }
@@ -591,7 +599,7 @@ button {
   line-height: 10px; }
   .moduletable_hmenu.secondary ul li {
     border-left: 1px solid rgba(255, 255, 255, 0.7);
-    padding: 0 10px 2px; }
+    padding: 0 10px; }
     .moduletable_hmenu.secondary ul li:first-child {
       border: none; }
     .moduletable_hmenu.secondary ul li a {
@@ -631,3 +639,32 @@ button {
   position: absolute;
   top: 0;
   right: 0; }
+  .imgTopRight p {
+    margin: 0;
+    padding: 0;
+    position: relative;
+    bottom: 105px;
+    right: -170px;
+    font-size: 10px; }
+
+a:hover {
+  text-decoration: none; }
+a .joinButton {
+  background: url("../images/button_join.png") top center no-repeat;
+  width: 352px;
+  height: 127px;
+  text-align: center;
+  font-family: "alternate-gothic-no-1-d";
+  font-size: 40px;
+  text-transform: uppercase;
+  line-height: 1.2em;
+  color: #1b3757;
+  text-shadow: 1px 1px 0px rgba(255, 255, 255, 0.42);
+  cursor: pointer;
+  padding: 22px 0 0 0; }
+  a .joinButton .sizeUp30 {
+    font-size: 75px; }
+  a .joinButton:hover {
+    color: #fff;
+    text-decoration: none;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.42); }

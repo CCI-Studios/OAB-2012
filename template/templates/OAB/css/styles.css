@@ -29,3 +29,32 @@
   position: absolute;
   top: 0;
   right: 0; }
+  .imgTopRight p {
+    margin: 0;
+    padding: 0;
+    position: relative;
+    bottom: 105px;
+    right: -170px;
+    font-size: 10px; }
+
+a:hover {
+  text-decoration: none; }
+a .joinButton {
+  background: url("../images/button_join.png") top center no-repeat;
+  width: 352px;
+  height: 127px;
+  text-align: center;
+  font-family: "alternate-gothic-no-1-d";
+  font-size: 40px;
+  text-transform: uppercase;
+  line-height: 1.2em;
+  color: #1b3757;
+  text-shadow: 1px 1px 0px rgba(255, 255, 255, 0.42);
+  cursor: pointer;
+  padding: 22px 0 0 0; }
+  a .joinButton .sizeUp30 {
+    font-size: 75px; }
+  a .joinButton:hover {
+    color: #fff;
+    text-decoration: none;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.42); }

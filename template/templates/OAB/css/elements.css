@@ -18,16 +18,25 @@ h1 {
   line-height: 1em;
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.75);
   margin-bottom: 14px; }
+  .home h1 {
+    z-index: 2;
+    position: relative; }
 
 h2 {
   font-size: 18px;
-  line-height: 1em;
   color: white;
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.75);
   margin-bottom: 14px; }
 
 ul {
-  list-style: none; }
+  color: #87b161; }
+  ul.links {
+    list-style: none;
+    padding-left: 0; }
+    ul.links li a {
+      color: #ffffff; }
+      ul.links li a:hover {
+        color: #87b161; }
 
 p,
 li {
