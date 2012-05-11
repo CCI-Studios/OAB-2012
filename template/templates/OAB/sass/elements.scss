@@ -33,6 +33,10 @@ h1 {
 	text-shadow: 2px 2px 4px rgba(black, .75);
 	margin-bottom: 14px;
 	
+	.home & {
+		z-index: 2;
+		position: relative;
+	}
 }
 
 h2 {
