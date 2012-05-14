@@ -31,8 +31,7 @@ h2 {
 ul {
   color: #87b161; }
   ul.links {
-    list-style: none;
-    padding-left: 0; }
+    padding-left: 30px; }
     ul.links li a {
       color: #ffffff; }
       ul.links li a:hover {
