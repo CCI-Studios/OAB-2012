@@ -18,7 +18,7 @@ CCI.Rollover = new Class({
 	},
 	
 	_setupImage: function(image) {
-		var normal, over, index;
+		var normal, over, index, anchor, target;
 		
 		normal = image.src;
 		index = normal.lastIndexOf(this.options.normal_text); 
@@ -28,8 +28,15 @@ CCI.Rollover = new Class({
 		over = normal.substr(0, index) + 
 			this.options.over_text + 
 			normal.substr(index + this.options.normal_text.length);
+			
+		anchor = image.getParent('a');
+		if (anchor) {
+			target = anchor;
+		} else {
+			target = image;
+		}
 		
-		image.addEvents({
+		target.addEvents({
 			mouseenter: function() {
 				image.src = over;
 			},
