@@ -531,18 +531,18 @@ button {
       text-decoration: none;
       text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.42); }
 
-#bottom .moduletable {
+.moduletable.bottom {
   width: 31.914893617%;
   padding-left: 2.127659574%;
   position: relative;
   float: left;
   text-decoration: none; }
-  #bottom .moduletable:first-child {
+  .moduletable.bottom:first-child {
     padding-left: 0; }
-  #bottom .moduletable a img {
+  .moduletable.bottom a img {
     position: relative;
     left: -60px; }
-  #bottom .moduletable a span {
+  .moduletable.bottom a span {
     position: absolute;
     top: 55px;
     left: 170px;
@@ -550,16 +550,16 @@ button {
     font-size: 26px;
     color: #87b161;
     text-shadow: 1px 1px 1px black; }
-  #bottom .moduletable a:hover span {
+  .moduletable.bottom a:hover span {
     color: #fff;
     text-decoration: none; }
-  #bottom .moduletable a:hover {
+  .moduletable.bottom a:hover {
     text-decoration: none; }
-  .ie7 #bottom .moduletable a {
+  .ie7 .moduletable.bottom a {
     top: 60px; }
-  #bottom .moduletable .testimonials img {
+  .moduletable.bottom .testimonials img {
     top: -5px; }
-  #bottom .moduletable .message img {
+  .moduletable.bottom .message img {
     top: -8px; }
 
 /* @group modules */
