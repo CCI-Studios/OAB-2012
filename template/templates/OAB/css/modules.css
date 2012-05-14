@@ -28,27 +28,29 @@
   width: 31.914893617%;
   padding-left: 2.127659574%;
   position: relative;
-  float: left; }
+  float: left;
+  text-decoration: none; }
   #bottom .moduletable:first-child {
     padding-left: 0; }
-  #bottom .moduletable img {
+  #bottom .moduletable a img {
     position: relative;
     left: -60px; }
+  #bottom .moduletable a span {
+    position: absolute;
+    top: 55px;
+    left: 170px;
+    font-family: "alternate-gothic-no-1-d";
+    font-size: 26px;
+    color: #87b161;
+    text-shadow: 1px 1px 1px black; }
+  #bottom .moduletable a:hover span {
+    color: #fff;
+    text-decoration: none; }
+  #bottom .moduletable a:hover {
+    text-decoration: none; }
+  .ie7 #bottom .moduletable a {
+    top: 60px; }
   #bottom .moduletable .testimonials img {
     top: -5px; }
   #bottom .moduletable .message img {
     top: -8px; }
-  #bottom .moduletable p {
-    position: absolute;
-    top: 45px;
-    left: 170px; }
-    #bottom .moduletable p a {
-      font-family: "alternate-gothic-no-1-d";
-      font-size: 26px;
-      color: #87b161;
-      text-shadow: 1px 1px 1px black; }
-      #bottom .moduletable p a:hover {
-        color: #fff;
-        text-decoration: none; }
-    .ie7 #bottom .moduletable p {
-      top: 60px; }
