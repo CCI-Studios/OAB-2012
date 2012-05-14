@@ -403,6 +403,9 @@ ul {
       ul.links li a:hover {
         color: #87b161; }
 
+iframe {
+  border: none; }
+
 p,
 li {
   font-weight: lighter; }
