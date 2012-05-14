@@ -42,39 +42,45 @@
 	padding-left: 2.127659574%;
 	position: relative;
 	float: left;
+	text-decoration: none;
 	&:first-child {
 		padding-left: 0;
 	}
 	
-	img {
-		position: relative;
-		left: -60px;
+	a {
+		img {
+			position: relative;
+			left: -60px;
+		}
+		
+		span {
+			position: absolute;
+			top: 55px;
+			left: 170px;
+			font-family: "alternate-gothic-no-1-d";
+			font-size: 26px;
+			color: $green;
+			text-shadow: 1px 1px 1px rgba(black, 1);
+		}
+		
+		&:hover span {
+			color: #fff;
+			text-decoration: none;
+		}
+		
+		&:hover {
+			text-decoration: none;
+		}
+		
+		.ie7 & {
+			top: 60px;
+		}
 	}
+	
 	.testimonials img {
 		top: -5px;
 	}
 	.message img {
 		top: -8px;
-	}
-	
-	p {
-		position: absolute;
-		top: 45px;
-		left: 170px;
-		
-		a {
-			font-family: "alternate-gothic-no-1-d";
-			font-size: 26px;
-			color: $green;
-			text-shadow: 1px 1px 1px rgba(black, 1);
-			&:hover {
-				color: #fff;
-				text-decoration: none;
-			}
-		}
-		
-	.ie7 & {
-		top: 60px;
-	}	
 	}
 }
