@@ -50,3 +50,5 @@
       #bottom .moduletable p a:hover {
         color: #fff;
         text-decoration: none; }
+    .ie7 #bottom .moduletable p {
+      top: 60px; }

@@ -555,6 +555,8 @@ button {
       #bottom .moduletable p a:hover {
         color: #fff;
         text-decoration: none; }
+    .ie7 #bottom .moduletable p {
+      top: 60px; }
 
 /* @group modules */
 /* @group hmenu */
@@ -586,6 +588,7 @@ button {
         background-position: 100% bottom;
         color: #fff;
         text-decoration: none;
+        text-shadow: 1px 1px 1px black;
         text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.42); }
   .moduletable_hmenu.primary ul a {
     color: #87b161;
@@ -598,14 +601,14 @@ button {
   font-size: 10px;
   line-height: 10px; }
   .moduletable_hmenu.secondary ul li {
-    border-left: 1px solid rgba(255, 255, 255, 0.7);
+    border-left: 1px solid white;
     padding: 0 10px; }
     .moduletable_hmenu.secondary ul li:first-child {
       border: none; }
     .moduletable_hmenu.secondary ul li a {
-      color: rgba(255, 255, 255, 0.7); }
+      color: white; }
       .moduletable_hmenu.secondary ul li a:hover {
-        color: rgba(135, 177, 97, 0.7);
+        color: #87b161;
         text-decoration: none; }
 
 /* styles */
@@ -647,24 +650,25 @@ button {
     right: -170px;
     font-size: 10px; }
 
-a:hover {
+div:hover {
   text-decoration: none; }
-a .joinButton {
+div .joinButton {
   background: url("../images/button_join.png") top center no-repeat;
   width: 352px;
   height: 127px;
   text-align: center;
-  font-family: "alternate-gothic-no-1-d";
-  font-size: 40px;
-  text-transform: uppercase;
-  line-height: 1.2em;
-  color: #1b3757;
-  text-shadow: 1px 1px 0px rgba(255, 255, 255, 0.42);
   cursor: pointer;
   padding: 22px 0 0 0; }
-  a .joinButton .sizeUp30 {
-    font-size: 75px; }
-  a .joinButton:hover {
-    color: #fff;
-    text-decoration: none;
-    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.42); }
+  div .joinButton a {
+    font-family: "alternate-gothic-no-1-d";
+    font-size: 40px;
+    text-transform: uppercase;
+    line-height: 1.2em;
+    color: #1b3757;
+    text-shadow: 1px 1px 0px rgba(255, 255, 255, 0.42); }
+    div .joinButton a .sizeUp30 {
+      font-size: 75px; }
+    div .joinButton a:hover {
+      color: #fff;
+      text-decoration: none;
+      text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.42); }

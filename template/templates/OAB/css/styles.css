@@ -37,24 +37,25 @@
     right: -170px;
     font-size: 10px; }
 
-a:hover {
+div:hover {
   text-decoration: none; }
-a .joinButton {
+div .joinButton {
   background: url("../images/button_join.png") top center no-repeat;
   width: 352px;
   height: 127px;
   text-align: center;
-  font-family: "alternate-gothic-no-1-d";
-  font-size: 40px;
-  text-transform: uppercase;
-  line-height: 1.2em;
-  color: #1b3757;
-  text-shadow: 1px 1px 0px rgba(255, 255, 255, 0.42);
   cursor: pointer;
   padding: 22px 0 0 0; }
-  a .joinButton .sizeUp30 {
-    font-size: 75px; }
-  a .joinButton:hover {
-    color: #fff;
-    text-decoration: none;
-    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.42); }
+  div .joinButton a {
+    font-family: "alternate-gothic-no-1-d";
+    font-size: 40px;
+    text-transform: uppercase;
+    line-height: 1.2em;
+    color: #1b3757;
+    text-shadow: 1px 1px 0px rgba(255, 255, 255, 0.42); }
+    div .joinButton a .sizeUp30 {
+      font-size: 75px; }
+    div .joinButton a:hover {
+      color: #fff;
+      text-decoration: none;
+      text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.42); }
