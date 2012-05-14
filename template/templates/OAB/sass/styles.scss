@@ -31,7 +31,7 @@
 	}
 }
 
-a {
+div {
 	&:hover {
 		text-decoration: none;
 	}
@@ -40,23 +40,24 @@ a {
 		width: 352px;
 		height: 127px;
 		text-align: center;
-		font-family: "alternate-gothic-no-1-d";
-		font-size: 40px;
-		text-transform: uppercase;
-		line-height: 1.2em;
-		color: $navy;
-		text-shadow: 1px 1px 0px rgba(white, .42);
 		cursor: pointer;
 		padding: 22px 0 0 0;
-
-		.sizeUp30 {
-			font-size: 75px;
-		}
-
-		&:hover {
-			color: #fff;
-			text-decoration: none;
-			text-shadow: 1px 1px 1px rgba(black, .42);
+		
+		a {
+			font-family: "alternate-gothic-no-1-d";
+			font-size: 40px;
+			text-transform: uppercase;
+			line-height: 1.2em;
+			color: $navy;
+			text-shadow: 1px 1px 0px rgba(white, .42);
+			.sizeUp30 {
+				font-size: 75px;
+			}
+			&:hover {
+				color: #fff;
+				text-decoration: none;
+				text-shadow: 1px 1px 1px rgba(black, .42);
+			}
 		}
 	}	
 }
