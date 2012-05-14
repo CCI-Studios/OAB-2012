@@ -72,5 +72,9 @@
 				text-decoration: none;
 			}
 		}
+		
+	.ie7 & {
+		top: 60px;
+	}	
 	}
 }
