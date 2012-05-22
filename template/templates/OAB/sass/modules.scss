@@ -35,6 +35,19 @@
 
 }
 
+// middle mods
+
+.moduletable.faces {
+	margin: 0 0 35px 0;
+	
+	img {
+		margin-left: 16px;
+		&:first-child {
+			margin: 0;
+		}
+	}
+}
+
 // bottom mods
 
 .moduletable.bottom {
