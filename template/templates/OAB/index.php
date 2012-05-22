@@ -67,6 +67,9 @@ $analytics = "UA-31646712-1";
 				<jdoc:include type="component" />
 				<div class="clear"></div>
 			</div>
+			<div id="middle">
+				<jdoc:include type="modules" name="middle" style="xhtml" />
+			</div>
 			<div id="bottom">
 				<jdoc:include type="modules" name="bottom" style="xhtml" />
 				<div class="clear"></div>
