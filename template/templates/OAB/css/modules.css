@@ -24,6 +24,13 @@
       text-decoration: none;
       text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.42); }
 
+.moduletable.faces {
+  margin: 0 0 35px 0; }
+  .moduletable.faces img {
+    margin-left: 16px; }
+    .moduletable.faces img:first-child {
+      margin: 0; }
+
 .moduletable.bottom {
   width: 31.914893617%;
   padding-left: 2.127659574%;
