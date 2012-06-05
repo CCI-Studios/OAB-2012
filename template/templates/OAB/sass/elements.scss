@@ -48,18 +48,19 @@ h2 {
 
 ul {
 	color: $green;
+	li {
+		a {
+			color: #fff;
+			&:hover {
+				color: $green;
+			}
+		}
+		
+		a:visited {color: white;}
+	}
 	
 	&.links {
 		padding-left: 30px;
-		
-		li {
-			a {
-				color: #ffffff;
-				&:hover {
-					color: $green;
-				}
-			}
-		}
 	}
 }
 

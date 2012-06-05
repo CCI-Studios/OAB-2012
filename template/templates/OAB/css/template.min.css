@@ -396,12 +396,14 @@ h2 {
 
 ul {
   color: #87b161; }
+  ul li a {
+    color: #fff; }
+    ul li a:hover {
+      color: #87b161; }
+  ul li a:visited {
+    color: white; }
   ul.links {
     padding-left: 30px; }
-    ul.links li a {
-      color: #ffffff; }
-      ul.links li a:hover {
-        color: #87b161; }
 
 iframe {
   border: none; }
