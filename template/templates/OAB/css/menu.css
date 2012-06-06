@@ -51,3 +51,14 @@
       .moduletable_hmenu.secondary ul li a:hover {
         color: #87b161;
         text-decoration: none; }
+
+ul.menu {
+  list-style: none;
+  padding-left: 0; }
+  ul.menu li {
+    font-weight: bold; }
+    ul.menu li ul {
+      margin-top: 2px;
+      list-style-type: disc; }
+      ul.menu li ul li {
+        font-weight: normal; }
