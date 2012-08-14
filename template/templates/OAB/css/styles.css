@@ -53,7 +53,7 @@ div .joinButton {
     line-height: 1.2em;
     color: #1b3757;
     text-shadow: 1px 1px 0px rgba(255, 255, 255, 0.42); }
-    div .joinButton a .sizeUp30 {
+    div .joinButton a .size-75 {
       font-size: 75px; }
     div .joinButton a:hover {
       color: #fff;

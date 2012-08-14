@@ -394,16 +394,17 @@ h2 {
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.75);
   margin-bottom: 14px; }
 
-ul {
-  color: #87b161; }
-  ul li a {
-    color: #fff; }
-    ul li a:hover {
-      color: #87b161; }
-  ul li a:visited {
+.item-page ul {
+  list-style: none;
+  padding-left: 20px; }
+  .item-page ul li {
+    background: url("../images/bullet.png") left 5px no-repeat;
+    padding-left: 20px; }
+  .item-page ul a {
     color: white; }
-  ul.links {
-    padding-left: 30px; }
+    .item-page ul a:hover {
+      color: #87b161;
+      text-decoration: none; }
 
 iframe {
   border: none; }
@@ -525,7 +526,7 @@ button {
     font-size: 28px;
     color: #1b3757;
     line-height: 55px;
-    padding: 0 0 0 158px;
+    padding: 0 0 0 161px;
     vertical-align: middle;
     text-shadow: 1px 1px 0px rgba(255, 255, 255, 0.42); }
     .moduletable.join a:hover {
@@ -691,7 +692,7 @@ div .joinButton {
     line-height: 1.2em;
     color: #1b3757;
     text-shadow: 1px 1px 0px rgba(255, 255, 255, 0.42); }
-    div .joinButton a .sizeUp30 {
+    div .joinButton a .size-75 {
       font-size: 75px; }
     div .joinButton a:hover {
       color: #fff;
