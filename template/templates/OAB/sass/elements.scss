@@ -46,21 +46,20 @@ h2 {
 	margin-bottom: 14px;
 }
 
-ul {
-	color: $green;
+.item-page ul {
+	list-style: none;
+	padding-left: 20px;
 	li {
-		a {
-			color: #fff;
-			&:hover {
-				color: $green;
-			}
-		}
-		
-		a:visited {color: white;}
+		background: url('../images/bullet.png') left 5px no-repeat;
+		padding-left: 20px;
 	}
 	
-	&.links {
-		padding-left: 30px;
+	a {
+		color: white;
+		&:hover {
+			color: $green;
+			text-decoration: none;
+		}
 	}
 }
 
