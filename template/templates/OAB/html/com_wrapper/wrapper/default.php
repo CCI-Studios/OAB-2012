@@ -32,7 +32,7 @@ function iFrameHeight() {
 		<?php endif; ?>
 	</h1>
 <?php endif; ?>
-<iframe <?php echo $this->wrapper->load; ?>
+<iframe ALLOWTRANSPARENCY=”true” <?php echo $this->wrapper->load; ?>
 	id="blockrandom"
 	name="iframe"
 	src="<?php echo $this->escape($this->wrapper->url); ?>"
