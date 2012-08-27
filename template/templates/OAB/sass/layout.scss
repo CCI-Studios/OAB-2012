@@ -9,6 +9,10 @@
 	margin: 0 auto;
 }
 
+#wrapper {
+	min-width: 960px;
+}
+
 #header {
 	height: 100px;
 	background-color: $smoke;
