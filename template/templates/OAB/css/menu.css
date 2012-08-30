@@ -58,7 +58,6 @@ ul.menu {
   ul.menu li {
     font-weight: bold; }
     ul.menu li ul {
-      margin-top: 2px;
-      list-style-type: disc; }
+      margin-top: 2px; }
       ul.menu li ul li {
         font-weight: normal; }

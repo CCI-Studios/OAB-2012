@@ -1,3 +1,4 @@
+@import url(engaging_networks.css);
 /* normalize.css 2011-08-12T17:28 UTC · http://github.com/necolas/normalize.css */
 /* =============================================================================
    HTML5 display definitions
@@ -366,9 +367,11 @@ table {
 
 /* elements */
 body, select, input, textarea {
-  color: #fff;
   font-family: Helvetica, Arial, sans-serif;
   font-size: 14px; }
+
+body {
+  color: #fff; }
 
 /* Headers (h1, h2, etc) have no default font-size or margin; define those yourself */
 h1, h2, h3, h4, h5, h6 {
@@ -635,8 +638,7 @@ ul.menu {
   ul.menu li {
     font-weight: bold; }
     ul.menu li ul {
-      margin-top: 2px;
-      list-style-type: disc; }
+      margin-top: 2px; }
       ul.menu li ul li {
         font-weight: normal; }
 
