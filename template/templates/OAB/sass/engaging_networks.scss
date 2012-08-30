@@ -19,9 +19,8 @@ h1 {
 }
 
 input[type="text"] {
-	height: 28px;
+	height: 22px;
 	line-height: 1em;
-	padding: 4px;
 	width: 270px;
 	margin-top: 3px;
 	
@@ -40,10 +39,11 @@ input[type="submit"],
 input[type="button"] {
 	background-color: $green;
 	border: 1px solid #759954;
-	height: 28px;
-	font-size: 13px;
+	height: 38px;
+	font-size: 16px;
 	cursor: pointer;
 	margin: 0;
+	padding: 5px 25px;
 	
 	color: white;
 	text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.5);
@@ -54,7 +54,40 @@ input[type="button"] {
 }
 
 label {
-	font-size: 18px;
+	font-size: 16px;
 	color: white;
+}
+
+#Tell_us_about_yourselfDiv,
+#OAB_Form_InstructionsDiv {
+	font-size: 18px;
 	text-shadow: 2px 2px 4px rgba(black, .75);
+}
+
+.eaSubmitResetButtonGroup {
+	padding-top: 20px !important;
+}
+
+.eaMessageSubject{
+width: 25%;
+}
+
+.eaResetButton{
+display: none;
+}
+
+.eaMessageSignoff{
+display: none;
+}
+
+#Message_PersonalizationDiv span{
+width: 100%;
+}
+
+#Message_PersonalizationDiv .eaLabelSpacer{
+	display: none;
+}
+
+.eaMessageContentContainer{
+width: 30%;
 }
