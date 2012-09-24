@@ -40,7 +40,7 @@ $analytics = "UA-31646712-1";
 
 	<!-- load css -->
 	<?php if ($testing): ?>
-		<link rel="stylesheet" href="/templates/<?= $this->template ?>/css/template.css">
+		<link rel="stylesheet" href="/templates/<?= $this->template ?>/css/template.min.css">
 	<?php else: ?>
 		<link rel="stylesheet" href="/templates/<?= $this->template ?>/css/template.min.css">
 	<?php endif; ?>
@@ -83,6 +83,7 @@ $analytics = "UA-31646712-1";
 			<span class="left">&copy; OAB: It’s Urgent <?php echo date('Y') ?>. All Rights Reserved.</span>
 			<span class="right">Site by <a href="http://ccistudios.com" target="_blank">CCI Studios</a></span>
 			<div class="clear"></div>
+			<jdoc:include type="modules" name="copyright" style="xhtml" />
 		</div></div></div>
 	</div>
 	
