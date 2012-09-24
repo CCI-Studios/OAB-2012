@@ -38,7 +38,8 @@
 #copyright {
   background: url("../images/bg_copyrightShadow.png") top center no-repeat;
   text-align: none;
-  margin-top: -10px; }
+  margin-top: -10px;
+  color: #1b3757; }
   #copyright > div {
     padding: 35px 0 25px;
     font-size: 10px; }
