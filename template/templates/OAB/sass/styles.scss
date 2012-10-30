@@ -16,7 +16,7 @@
 ::selection { background: $green; color:#fff; text-shadow: none; }
 
 
-.imgTopRight {
+.map {
 	position: absolute;
 	top: 0;
 	right: 0;
@@ -28,6 +28,7 @@
 		bottom: 105px;
 		right: -170px;
 		font-size: 10px;
+		width: 265px;
 	}
 }
 
