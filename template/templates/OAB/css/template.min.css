@@ -473,14 +473,14 @@ button {
   min-width: 960px; }
 
 #header {
-  height: 100px;
-  background-color: #f1f1f1;
+  height: 120px;
+  background-color: #ffffff;
   border-bottom: 1px solid #fff; }
   #header > div {
     position: relative; }
 
 #body {
-  background: #25444f url("../images/bg_bodyStripes.jpg") top center repeat-x; }
+  background: #1c203d url("../images/bg_bodyStripes.jpg") 3px top repeat-x; }
   .home #body > div {
     background: url("../images/bg_bodyHome.jpg") top center no-repeat; }
   #body > div > div {
@@ -504,34 +504,40 @@ button {
   background: url("../images/bg_copyrightShadow.png") top center no-repeat;
   text-align: none;
   margin-top: -10px;
-  color: #1b3757; }
+  color: #232a4e; }
   #copyright > div {
     padding: 35px 0 25px;
     font-size: 10px; }
     #copyright > div span,
     #copyright > div a {
-      color: #1b3757; }
+      color: #232a4e; }
     #copyright > div a:hover {
       color: #87b161;
       text-decoration: none; }
 
 /* @group modules */
-.moduletable.logo {
+.moduletable.logo-1 {
   float: left;
-  height: 103px; }
+  height: 121px; }
+
+.moduletable.logo-2 {
+  float: right;
+  background: url("../images/bg_headerBottom.png") bottom right no-repeat;
+  width: 222px;
+  height: 230px; }
 
 .moduletable.join {
   background: url("../images/bg_joinHeader.png") top center no-repeat;
   position: absolute;
-  top: 101px;
+  top: 121px;
   left: -130px;
   width: 633px;
   height: 216px;
   text-transform: uppercase; }
   .moduletable.join a {
     font-family: "alternate-gothic-no-1-d";
-    font-size: 28px;
-    color: #1b3757;
+    font-size: 30px;
+    color: #232a4e;
     line-height: 55px;
     padding: 0 0 0 161px;
     vertical-align: middle;
@@ -593,14 +599,15 @@ button {
   padding: 0 5px; }
 
 .moduletable_hmenu.primary {
-  float: right;
+  float: left;
   font-size: 26px;
   font-family: "alternate-gothic-no-1-d";
   color: #fff;
-  line-height: 1em; }
+  line-height: 1em;
+  margin-left: 30px; }
   .moduletable_hmenu.primary ul li {
-    padding: 0px 0 0px 18px;
-    margin-left: 3px;
+    padding: 0px 0 0px 10px;
+    margin-left: 5px;
     cursor: pointer; }
     .moduletable_hmenu.primary ul li:hover, .moduletable_hmenu.primary ul li.active {
       background: url("../images/menu_rollover.png") no-repeat;
@@ -615,7 +622,7 @@ button {
   .moduletable_hmenu.primary ul a {
     color: #87b161;
     display: block;
-    padding: 33px 18px 17px 0;
+    padding: 52px 10px 17px 0;
     text-shadow: 1px 1px 1px white; }
 
 .moduletable_hmenu.secondary {
@@ -633,14 +640,14 @@ button {
         color: #87b161;
         text-decoration: none; }
 
-ul.menu {
+.moduletable_vmenu ul.menu {
   list-style: none;
   padding-left: 0; }
-  ul.menu li {
+  .moduletable_vmenu ul.menu li {
     font-weight: bold; }
-    ul.menu li ul {
+    .moduletable_vmenu ul.menu li ul {
       margin-top: 2px; }
-      ul.menu li ul li {
+      .moduletable_vmenu ul.menu li ul li {
         font-weight: normal; }
 
 /* styles */
@@ -670,17 +677,18 @@ ul.menu {
   color: #fff;
   text-shadow: none; }
 
-.imgTopRight {
+.map {
   position: absolute;
   top: 0;
   right: 0; }
-  .imgTopRight p {
+  .map p {
     margin: 0;
     padding: 0;
     position: relative;
     bottom: 105px;
     right: -170px;
-    font-size: 10px; }
+    font-size: 10px;
+    width: 265px; }
 
 div:hover {
   text-decoration: none; }
@@ -696,7 +704,7 @@ div .joinButton {
     font-size: 40px;
     text-transform: uppercase;
     line-height: 1.2em;
-    color: #1b3757;
+    color: #232a4e;
     text-shadow: 1px 1px 0px rgba(255, 255, 255, 0.42); }
     div .joinButton a .size-75 {
       font-size: 75px; }
