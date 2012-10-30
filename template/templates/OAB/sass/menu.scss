@@ -22,17 +22,18 @@
 }
 
 .moduletable_hmenu.primary {
-	float: right;
+	float: left;
 	font-size: 26px;
 	font-family: "alternate-gothic-no-1-d";
 	color: #fff;
 	line-height: 1em;
+	margin-left: 30px;
 	
 	ul {
 		
 		li {
-			padding: 0px 0 0px 18px;
-			margin-left: 3px;
+			padding: 0px 0 0px 10px;
+			margin-left: 5px;
 			cursor: pointer;
 			&:hover,
 			&.active {
@@ -53,7 +54,7 @@
 		a {
 			color: $green;
 			display: block;
-			padding: 33px 18px 17px 0;
+			padding: 52px 10px 17px 0;
 			text-shadow: 1px 1px 1px white;
 
 		}
@@ -89,24 +90,25 @@
 }
 
 // site map menu
-
-ul.menu {
-	list-style: none;
-	padding-left: 0;
-	
-	li {
-		font-weight: bold;
+.moduletable_vmenu {
+	ul.menu {
+		list-style: none;
+		padding-left: 0;
 		
-		ul {
-			margin-top: 2px;
+		li {
+			font-weight: bold;
 			
-			li {
-				font-weight: normal;
-			}
-		}	
-	}
+			ul {
+				margin-top: 2px;
+				
+				li {
+					font-weight: normal;
+				}
+			}	
+		}
 }
 
+}
 
 
 
