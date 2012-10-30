@@ -14,15 +14,15 @@
 }
 
 #header {
-	height: 100px;
-	background-color: $smoke;
+	height: 120px;
+	background-color: #ffffff;
 	border-bottom: 1px solid #fff;
 	
 	> div {position: relative;}
 }
 
 #body {
-	background: $bg url('../images/bg_bodyStripes.jpg') top center repeat-x;
+	background: $bg url('../images/bg_bodyStripes.jpg') 3px top repeat-x;
 	
 	.home & {
 		> div {
