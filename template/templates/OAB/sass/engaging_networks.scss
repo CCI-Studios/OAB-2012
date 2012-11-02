@@ -44,6 +44,7 @@ input[type="button"] {
 	cursor: pointer;
 	margin: 0;
 	padding: 5px 25px;
+	margin-top: 1em;
 	
 	color: white;
 	text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.5);
@@ -56,9 +57,14 @@ input[type="button"] {
 label {
 	font-size: 16px;
 	color: white;
+	margin-bottom: 3px;
+	display: inline-block;
+	*display: inline;
+	*zoom: 1;
 }
 
 .eaFullWidthContent {
+	margin-bottom: 10px;
 	a {
 		color: white;
 	}
@@ -68,6 +74,12 @@ label {
 #OAB_Form_InstructionsDiv {
 	font-size: 18px;
 	text-shadow: 2px 2px 4px rgba(black, .75);
+}
+
+.eaQuestionCheckbox {
+	label {
+		margin-left: 10px;
+	}
 }
 
 .eaSubmitResetButtonGroup {

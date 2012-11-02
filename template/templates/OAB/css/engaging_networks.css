@@ -35,6 +35,7 @@ input[type="button"] {
   cursor: pointer;
   margin: 0;
   padding: 5px 25px;
+  margin-top: 1em;
   color: white;
   text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.5);
   -webkit-border-radius: 3px;
@@ -43,15 +44,24 @@ input[type="button"] {
 
 label {
   font-size: 16px;
-  color: white; }
+  color: white;
+  margin-bottom: 3px;
+  display: inline-block;
+  *display: inline;
+  *zoom: 1; }
 
-.eaFullWidthContent a {
-  color: white; }
+.eaFullWidthContent {
+  margin-bottom: 10px; }
+  .eaFullWidthContent a {
+    color: white; }
 
 #Tell_us_about_yourselfDiv,
 #OAB_Form_InstructionsDiv {
   font-size: 18px;
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.75); }
+
+.eaQuestionCheckbox label {
+  margin-left: 10px; }
 
 .eaSubmitResetButtonGroup {
   padding-top: 20px !important; }
